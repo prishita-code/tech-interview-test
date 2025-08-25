@@ -1,4 +1,6 @@
-resource "aws_vpc" "test_vpc "{
+
+
+resource "aws_vpc" "test_vpc"{
     cidr_block = "10.0.1.0/16"
     enable_dns_hostnames = true
 
