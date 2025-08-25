@@ -1,5 +1,3 @@
-
-
 resource "aws_vpc" "test_vpc"{
     cidr_block = "10.0.1.0/16"
     enable_dns_hostnames = true
@@ -34,7 +32,7 @@ resource "aws_security_group" "aws_sg" {
   }
 }
 
-resource "aws_lb" "test_lb"{
+resource "aws_lb" "test_lb" {
     name = "Testing_LB"
     vpc_id = aws_vpc.test_vpc.id
     security_groups    = [aws_security_group.aws_sg.id]
