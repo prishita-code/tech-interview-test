@@ -1,0 +1,7 @@
+1. Deloy the app(index.html) to EC2 instance
+2. Output.tf file
+3. Cloudwatch metrics for monitoring and alreting
+4. OpenTelementary(Preometheus Logging/Grafana Dashboard)
+5. Specify environments (Prod/Dev/Test)
+6. Display host information on index.html
+7. For autoscaling, use autoscaling security groups 
